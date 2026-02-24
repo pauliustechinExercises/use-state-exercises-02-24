@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+.tail_div {
+  @apply border w-full m-4 p-4 rounded
+}
+
+button{
+  border-radius: 5px;
+  background-color: rgb(42, 115, 199);
+  padding: 5px;
+  outline: #7d7db8;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+}
+
+input {
+  border: 1px solid #7d7db8;
+  border-radius: 5px;
+}
